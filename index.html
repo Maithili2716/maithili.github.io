@@ -5,6 +5,12 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Maithili Wagh- Portfolio</title>
      <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
      <script src="script.js" defer></script>  <!--defer- browser downloads script withoult blocking html rendering-improves speed-->
 </head>
 <body> 
@@ -22,19 +28,39 @@
      <section class="gameSection">
           <div class="gameContainer"> 
                <div class="game">
-                    <ul>
-                         <li> <button> Rock </button> </li>
-                         <li> <button> Paper </button> </li>
-                         <li> <button> Scissors </button> </li>
+                    <div></div>
+                    <ul class="images">
+                         <li> <img src="attachments/images/rock-emoji.png " alt="rock"></li>
+                         <li> <img src="attachments/images/paper.png" alt="paper"> </li>
+                         <li><img src="attachments/images/scissors-emoji.png" alt="scissors"> </li>
                     </ul>
-                    <h1> You Chose Rock Computer Chose Paper </h1>
-                    <h1> Result </h1>
-                    <h1>Score</h1>
+                    <span> You Chose Rock Computer Chose Paper </span>
+                    <ul class="result">
+                              <li>Result:win</li>
+                              <li> Your Score:2 </li>
+                    </ul>
                
                </div>
                <div class="aboutGame">
-                    <p>All about my first project- rock,paper,scissors game </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto deleniti, quam pariatur quas vero ratione mollitia, atque quisquam aliquid ducimus non provident? Deleniti, omnis architecto! Saepe asperiores culpa temporibus error.</p>
+                    <h1>My first project- Rock Paper Scissors Game</h1>
+                    <h2>Foundational skills i learned:</h2>
+                    <ul class="gameInfo">
+                         <li>Responsive web design:
+                             The layout adapts to look great on any design
+                         </li>
+                         <li> DOM Manipulation:
+                              Javascript was used to dynamically change the content
+                              on the page.
+                         </li>
+                         <li> Event Handling:
+                              The game responds to user clicks,demonstrating
+                              my ability to handle user interactions
+                         </li>
+                         <li>Conditional logic:
+                              The game determines the winner by checking multiple 
+                              conditions,showing my understanding of fundamental programming logic.
+                         </li>
+                    </ul>
 
                </div>
           </div>
@@ -44,8 +70,8 @@
           <div class="infoContainer">
                <div class="aboutMe"></div>
                <div class="myPfp"></div>
-               <a class="resumeLink" href="/attachments/resume">My Resume</a>
           </div>
+          <a class="resumeLink" href="/attachments/resume">My Resume</a>
      </section>
 
      <footer class="contactInfo">
