@@ -62,7 +62,7 @@ border: 0;
      width:480px;
      border:8px solid var(--primary-color);
      border-radius: 49px;
-     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+     box-shadow: 0 4px 4px rgba(0,0,0,0.1);
      display: grid;
      grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
      gap:2rem;
